@@ -669,7 +669,7 @@ do
         local KeyPicker = {
             Value = Info.Default;
             Toggled = false;
-            Mode = Info.Mode or 'Always'; -- Always, Toggle, Hold
+            Mode = Info.Mode or 'Toggle'; -- Always, Toggle, Hold
             Type = 'KeyPicker';
 
             SyncToggleState = Info.SyncToggleState or false;
